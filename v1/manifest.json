@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-10-31T09:00:00Z",
+  "feed": {
+    "path": "feed.json",
+    "version": 1
+  },
+  "figures": {
+    "path": "figures.json",
+    "version": 1
+  },
+  "spotlights": [
+    {
+      "id": "budget-2026",
+      "title": "Budget 2026",
+      "subtitle": "October 2026 Spotlight",
+      "icon": "business_center",
+      "color": "red",
+      "access": "plus",
+      "path": "spotlights/budget-2026.json",
+      "version": 1,
+      "minSchema": 1,
+      "order": 10
+    }
+  ],
+  "trackers": [
+    {
+      "id": "public-finances",
+      "title": "Public Finances",
+      "subtitle": "Borrowing, debt, interest",
+      "icon": "account_balance",
+      "color": "red",
+      "access": "free",
+      "path": "trackers/public-finances.json",
+      "version": 1,
+      "minSchema": 1,
+      "order": 10
+    },
+    {
+      "id": "immigration",
+      "title": "Immigration & Asylum",
+      "subtitle": "Small boats, migration, asylum, costs",
+      "icon": "public",
+      "color": "blue",
+      "access": "free",
+      "path": "trackers/immigration.json",
+      "version": 1,
+      "minSchema": 1,
+      "order": 20
+    }
+  ]
+}

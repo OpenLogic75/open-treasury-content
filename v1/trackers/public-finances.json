@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "public-finances",
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "title": "Public Finances",
+  "summary": "How much the government borrows, how much it owes, and what the interest costs.",
+  "theme": { "primary": "#FF3B30" },
+  "sections": [
+    {
+      "title": "Borrowing",
+      "metrics": [
+        {
+          "id": "psnb_outturn",
+          "label": "Borrowing in 2025-26",
+          "tickerLabel": "Borrowing 2025-26",
+          "value": "£134.3bn",
+          "asOf": "Outturn, ONS September 2026",
+          "source": "ONS, public sector finances",
+          "definition": "Public sector net borrowing: the gap between what the government spends and what it raises in a year.",
+          "ticker": true
+        },
+        {
+          "id": "psnb_forecast",
+          "label": "Forecast borrowing, 2026-27",
+          "value": "£133.2bn",
+          "detail": "4.2% of GDP",
+          "change": { "text": "Forecast to fall to £68.3bn by 2031-32", "direction": "down", "sentiment": "good" },
+          "asOf": "OBR forecast, October 2026",
+          "source": "Budget 2026, Tables 1.2 and 1.3 (OBR)",
+          "series": {
+            "labels": ["25-26", "26-27", "27-28", "28-29", "29-30", "30-31", "31-32"],
+            "values": [134.3, 133.2, 112.0, 99.5, 73.8, 66.9, 68.3]
+          },
+          "seriesPrefix": "£",
+          "seriesSuffix": "bn"
+        },
+        {
+          "id": "headroom",
+          "label": "Headroom against the stability rule",
+          "value": "£15bn",
+          "detail": "The OBR puts the chance of meeting the rule at 56%",
+          "asOf": "OBR forecast, October 2026",
+          "source": "Budget 2026, paragraph 1.20"
+        }
+      ]
+    },
+    {
+      "title": "Debt",
+      "metrics": [
+        {
+          "id": "psnd",
+          "label": "Public sector net debt",
+          "tickerLabel": "National debt",
+          "value": "£2.99tn",
+          "detail": "93.8% of GDP",
+          "asOf": "End of August 2026",
+          "source": "ONS, public sector finances",
+          "definition": "Everything the public sector owes, minus its cash and other liquid assets. The chart shows debt as a % of GDP.",
+          "ticker": true,
+          "series": {
+            "labels": ["Sep 25", "Oct", "Nov", "Dec", "Jan 26", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+            "values": [94.9, 94.0, 94.6, 94.2, 92.3, 92.6, 93.3, 93.6, 94.3, 94.6, 94.0, 93.8]
+          },
+          "seriesSuffix": "%"
+        },
+        {
+          "id": "debt_interest",
+          "label": "Debt interest, 2025-26",
+          "tickerLabel": "Debt interest",
+          "value": "£96.8bn",
+          "change": { "text": "Up from £85.3bn in 2024-25", "direction": "up", "sentiment": "bad" },
+          "asOf": "2025-26 outturn",
+          "source": "ONS, public sector finances",
+          "ticker": true,
+          "series": { "labels": ["20/21", "21/22", "22/23", "23/24", "24/25", "25/26"], "values": [41.0, 71.0, 107.8, 83.0, 85.3, 96.8] },
+          "seriesPrefix": "£",
+          "seriesSuffix": "bn"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    { "type": "link", "title": "Read the Budget 2026 Spotlight", "subtitle": "What the October Budget means for the public finances", "action": { "type": "spotlight", "id": "budget-2026" } },
+    { "type": "link", "title": "Open the Debt screen", "action": { "type": "route", "route": "debt" } }
+  ]
+}

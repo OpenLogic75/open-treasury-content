@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "id": "immigration",
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "title": "Immigration & Asylum",
+  "summary": "Migration, Channel crossings, asylum and what it costs. These are different things, and they're often mixed up.",
+  "theme": { "primary": "#007AFF" },
+  "sections": [
+    {
+      "title": "Channel crossings",
+      "metrics": [
+        {
+          "id": "small_boats_ytd",
+          "label": "Small boat arrivals in 2026",
+          "tickerLabel": "Small boats 2026",
+          "value": "18,609",
+          "change": { "text": "42% fewer than the same point in 2025", "direction": "down", "sentiment": "neutral" },
+          "asOf": "To 24 September 2026",
+          "source": "Home Office, small boats time series",
+          "definition": "People detected arriving in the UK on small boats across the Channel. Most go on to claim asylum.",
+          "ticker": true
+        },
+        {
+          "id": "small_boats_2025",
+          "label": "Small boat arrivals in 2025",
+          "value": "41,472",
+          "change": { "text": "Up from 36,816 in 2024", "direction": "up", "sentiment": "neutral" },
+          "asOf": "Calendar year 2025, by month",
+          "source": "Home Office, small boats time series",
+          "series": {
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "values": [1098, 958, 4586, 4432, 3738, 5170, 5454, 3567, 5084, 2867, 2338, 2180]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Migration",
+      "metrics": [
+        {
+          "id": "net_migration",
+          "label": "Net migration, 2025",
+          "tickerLabel": "Net migration",
+          "value": "171,000",
+          "change": { "text": "Down from 331,000 in 2024, and a peak of 944,000 in the year to March 2023", "direction": "down", "sentiment": "neutral" },
+          "asOf": "Provisional, published May 2026",
+          "source": "ONS, long-term international migration",
+          "definition": "People arriving to live in the UK for at least 12 months, minus people leaving. Most arrivals come on work, study or family visas, not by small boat.",
+          "ticker": true
+        }
+      ]
+    },
+    {
+      "title": "Asylum",
+      "metrics": [
+        {
+          "id": "asylum_backlog",
+          "label": "Waiting for a first decision",
+          "tickerLabel": "Asylum backlog",
+          "value": "40,168",
+          "change": { "text": "Down 56% in a year", "direction": "down", "sentiment": "good" },
+          "asOf": "End of June 2026",
+          "source": "Home Office, immigration system statistics",
+          "definition": "People who have claimed asylum and are still waiting for the first decision on their claim.",
+          "ticker": true
+        },
+        {
+          "id": "asylum_claims",
+          "label": "Asylum claims, year to June 2026",
+          "value": "86,000",
+          "change": { "text": "100,625 claims in calendar year 2025", "direction": "down", "sentiment": "neutral" },
+          "asOf": "Year to June 2026",
+          "source": "Home Office, immigration system statistics",
+          "definition": "New applications for asylum, by any route of arrival, including dependants."
+        },
+        {
+          "id": "asylum_hotels",
+          "label": "People in asylum hotels",
+          "tickerLabel": "In asylum hotels",
+          "value": "16,000",
+          "change": { "text": "Half the number a year earlier", "direction": "down", "sentiment": "good" },
+          "asOf": "June 2026",
+          "source": "Home Office, immigration system statistics",
+          "ticker": true
+        },
+        {
+          "id": "returns",
+          "label": "Returns from the UK",
+          "value": "41,000",
+          "detail": "31,000 voluntary, 9,700 enforced",
+          "asOf": "Year to June 2026",
+          "source": "Home Office, immigration system statistics",
+          "definition": "All nationalities leaving the UK with no right to stay, not only asylum cases."
+        }
+      ]
+    },
+    {
+      "title": "Cost",
+      "metrics": [
+        {
+          "id": "asylum_cost",
+          "label": "Home Office asylum spending, 2025/26",
+          "tickerLabel": "Asylum spending",
+          "value": "£4.36bn",
+          "change": { "text": "Down from a record £5.38bn in 2023/24", "direction": "down", "sentiment": "good" },
+          "asOf": "2025/26 outturn",
+          "source": "Home Office Annual Report and Accounts 2025-26",
+          "definition": "About 0.3% of total public spending. Includes hotels, dispersal housing and the £49.18 a week support payment.",
+          "ticker": true,
+          "series": { "labels": ["22/23", "23/24", "24/25", "25/26"], "values": [3.95, 5.38, 4.76, 4.36] },
+          "seriesPrefix": "£",
+          "seriesSuffix": "bn"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "title": "Which number is which?",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Measure", "Latest", "Covers"],
+          "rows": [
+            ["Net migration", "171,000", "Everyone moving in for 12+ months, minus those leaving (2025)"],
+            ["Small boat arrivals", "41,472", "Channel crossings detected (2025)"],
+            ["Asylum claims", "100,625", "Applications from any route (2025)"],
+            ["Asylum backlog", "40,168", "Waiting for a first decision (June 2026)"]
+          ]
+        },
+        { "type": "note", "text": "Small boat arrivals are a small part of net migration. The Home Office calls them 'irregular' arrivals: arriving without permission, though claiming asylum on arrival is legal." }
+      ]
+    },
+    { "type": "link", "title": "Read the Immigration Spotlight", "subtitle": "The full story: costs, the asylum system and myths", "action": { "type": "route", "route": "spotlight_immigration" } }
+  ]
+}

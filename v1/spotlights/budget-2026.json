@@ -1,0 +1,1247 @@
+{
+  "schema": 1,
+  "id": "budget-2026",
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "theme": {
+    "primary": "#C62828",
+    "deep": "#8E0000",
+    "light": "#E53935"
+  },
+  "hero": {
+    "kicker": "SPOTLIGHT SERIES · OCTOBER 2026",
+    "title": "Budget 2026",
+    "summary": "Help with energy bills now, higher taxes on savings, rent and banks to pay for it, and a new rule for the State Pension from 2030. What John Healey's first Budget means for the public finances, and for you",
+    "stats": [
+      {
+        "value": "£133bn",
+        "label": "Forecast borrowing, 2026-27"
+      },
+      {
+        "value": "£15bn",
+        "label": "Headroom against the main fiscal rule"
+      },
+      {
+        "value": "£100",
+        "label": "Energy payment for bands A–D homes in England"
+      },
+      {
+        "value": "24%",
+        "label": "Basic-rate tax on savings income from April 2027"
+      }
+    ]
+  },
+  "tabs": [
+    {
+      "title": "Overview",
+      "icon": "assessment",
+      "header": {
+        "title": "Overview",
+        "subtitle": "The Budget in one minute"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "What happened",
+          "blocks": [
+            {
+              "type": "text",
+              "text": "On 28 October 2026, John Healey delivered his first Budget as Chancellor, and the first under Prime Minister Andy Burnham. It came after energy prices and government borrowing costs jumped because of the conflict in the Middle East.\n\nThe Chancellor didn't raise income tax, National Insurance or VAT rates. Instead he paid for help with energy bills with a temporary rise in tax on bank profits, and raised more from tax on savings interest, rental income and investment allowances, plus a crackdown on unpaid tax. The biggest long-term change is to the State Pension: the triple lock stays until April 2029, then is replaced by a rule that keeps the pension in line with earnings."
+            },
+            {
+              "type": "source",
+              "text": "Source: HM Treasury, Budget 2026 (HC 726), 28 October 2026"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "The headlines",
+          "blocks": [
+            {
+              "type": "bullet",
+              "title": "Energy help this winter",
+              "text": "A £100 payment for households in council tax bands A–D in England from January 2027 (up to 20 million homes), 0% VAT on household electricity until July 2027, and the 5p fuel duty cut kept until July 2027."
+            },
+            {
+              "type": "bullet",
+              "title": "Higher tax on savings and rent",
+              "text": "From April 2027, tax rates on savings interest and property income go up by another 2 points, on top of the 2-point rise set at Budget 2025. That makes them 24%, 44% and 49%."
+            },
+            {
+              "type": "bullet",
+              "title": "Banks pay for the energy help",
+              "text": "The extra corporation tax rate on bank profits doubles from 3% to 6% for 15 months, from January 2027 to March 2028."
+            },
+            {
+              "type": "bullet",
+              "title": "A new rule for the State Pension",
+              "text": "From April 2030 the State Pension will rise by the highest of 2.5%, inflation or whatever keeps its value relative to earnings at the April 2029 level. The government says this saves £15bn a year by the late 2030s."
+            },
+            {
+              "type": "bullet",
+              "title": "Pay and pensions",
+              "text": "The National Living Wage rises 3.9% to £13.21 an hour from April 2027. A new Pension Tax Allowance means pensioners whose income is no more than the full new State Pension won't start paying income tax because it goes up."
+            },
+            {
+              "type": "bullet",
+              "title": "Cash ISAs left alone",
+              "text": "The planned cut to the £20,000 cash ISA limit has been dropped."
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Myths",
+          "blocks": [
+            {
+              "type": "myth",
+              "myth": "This Budget didn't raise taxes",
+              "reality": "Headline rates of income tax, National Insurance and VAT haven't changed, but the tax measures add up to a net £5.6bn a year more by 2029-30 and £7.0bn by 2031-32. The OBR expects the tax burden to pass its record high of 37.2% of GDP in 2027-28."
+            },
+            {
+              "type": "myth",
+              "myth": "The triple lock has been scrapped",
+              "reality": "It applies to every rise up to and including April 2029. After that, the pension still rises by at least 2.5% or inflation each year, but the earnings test changes so the pension stops gaining ground on wages."
+            },
+            {
+              "type": "myth",
+              "myth": "Every household gets £100",
+              "reality": "The payment covers homes in council tax bands A–D in England. Scotland, Wales and Northern Ireland get their share of the money (via the Barnett formula) to spend as they choose."
+            },
+            {
+              "type": "myth",
+              "myth": "Borrowing is going up",
+              "reality": "Borrowing is £17.7bn higher this year than the OBR forecast in March, mainly because debt interest costs more, but it is still forecast to fall in most years, from £133bn (4.2% of GDP) to under 2% of GDP by 2030-31."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Numbers",
+      "icon": "show_chart",
+      "header": {
+        "title": "The Numbers",
+        "subtitle": "The OBR's October 2026 forecast for the economy and the public finances"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "Borrowing (£bn)",
+          "blocks": [
+            {
+              "type": "bar",
+              "label": "2025-26 (outturn)",
+              "value": 134.3,
+              "max": 134.3,
+              "valueText": "£134.3bn"
+            },
+            {
+              "type": "bar",
+              "label": "2026-27",
+              "value": 133.2,
+              "max": 134.3,
+              "valueText": "£133.2bn · 4.2% of GDP"
+            },
+            {
+              "type": "bar",
+              "label": "2027-28",
+              "value": 112.0,
+              "max": 134.3,
+              "valueText": "£112.0bn · 3.4%"
+            },
+            {
+              "type": "bar",
+              "label": "2028-29",
+              "value": 99.5,
+              "max": 134.3,
+              "valueText": "£99.5bn · 2.9%"
+            },
+            {
+              "type": "bar",
+              "label": "2029-30",
+              "value": 73.8,
+              "max": 134.3,
+              "valueText": "£73.8bn · 2.1%"
+            },
+            {
+              "type": "bar",
+              "label": "2030-31",
+              "value": 66.9,
+              "max": 134.3,
+              "valueText": "£66.9bn · 1.8%"
+            },
+            {
+              "type": "bar",
+              "label": "2031-32",
+              "value": 68.3,
+              "max": 134.3,
+              "valueText": "£68.3bn · 1.8%"
+            },
+            {
+              "type": "note",
+              "text": "Every year is £8–18bn higher than the OBR forecast in March, mostly because debt interest costs more. The OBR now expects an average of £14bn a year more in debt interest than it did in the spring."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Tables 1.2 and 1.3 (OBR); ONS Public sector finances, September 2026"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Meeting the fiscal rules",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Stability rule (day-to-day budget in surplus by 2029-30)",
+              "value": "Met by £15bn",
+              "detail": "Rising to £22bn in 2030-31. The OBR puts the chance of meeting it at 56%"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Investment rule (net financial debt falling by 2029-30)",
+              "value": "Met by £24bn",
+              "detail": "Net financial debt levels off at about 84% of GDP, then falls to 81.7% by 2031-32"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Public sector net debt",
+              "value": "95.5% → 97.3%",
+              "detail": "Peaks in 2028-29 and ends the forecast at 95.6% of GDP"
+            },
+            {
+              "type": "note",
+              "text": "The headroom against the stability rule has shrunk since March. Higher debt interest from the conflict accounts for more than all of the drop."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Table 1.2 and paragraph 1.20; OBR EFO October 2026"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "The economy",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "GDP growth, 2026",
+              "value": "1.2%",
+              "detail": "Upgraded. 1.0% in 2027, then 1.6–1.8% a year"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Inflation (CPI), 2027",
+              "value": "3.4%",
+              "detail": "Peaking at 3.8% in early 2027 and back to the 2% target by the third quarter of 2028"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Unemployment",
+              "value": "5.1% peak",
+              "detail": "In mid-2027, falling to 4.1% by 2031"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Real disposable income per person, 2026",
+              "value": "−0.8%",
+              "detail": "Higher energy prices squeeze living standards this year before modest growth returns"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Table 1.1 (OBR)"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Where £1,504bn will go in 2027-28",
+          "blocks": [
+            {
+              "type": "bar",
+              "label": "Social protection (incl. pensions)",
+              "value": 430.0,
+              "max": 430.0,
+              "valueText": "£430bn"
+            },
+            {
+              "type": "bar",
+              "label": "Health",
+              "value": 309.0,
+              "max": 430.0,
+              "valueText": "£309bn"
+            },
+            {
+              "type": "bar",
+              "label": "Debt interest",
+              "value": 155.0,
+              "max": 430.0,
+              "valueText": "£155bn",
+              "color": "orange"
+            },
+            {
+              "type": "bar",
+              "label": "Education",
+              "value": 153.0,
+              "max": 430.0,
+              "valueText": "£153bn"
+            },
+            {
+              "type": "bar",
+              "label": "Defence",
+              "value": 98.0,
+              "max": 430.0,
+              "valueText": "£98bn"
+            },
+            {
+              "type": "bar",
+              "label": "Transport",
+              "value": 69.0,
+              "max": 430.0,
+              "valueText": "£69bn"
+            },
+            {
+              "type": "bar",
+              "label": "Public order and safety",
+              "value": 65.0,
+              "max": 430.0,
+              "valueText": "£65bn"
+            },
+            {
+              "type": "bar",
+              "label": "Personal social services",
+              "value": 60.0,
+              "max": 430.0,
+              "valueText": "£60bn"
+            },
+            {
+              "type": "bar",
+              "label": "Industry, agriculture and employment",
+              "value": 56.0,
+              "max": 430.0,
+              "valueText": "£56bn"
+            },
+            {
+              "type": "bar",
+              "label": "Housing and environment",
+              "value": 53.0,
+              "max": 430.0,
+              "valueText": "£53bn"
+            },
+            {
+              "type": "bar",
+              "label": "Other",
+              "value": 58.0,
+              "max": 430.0,
+              "valueText": "£58bn"
+            },
+            {
+              "type": "note",
+              "text": "Spending in 2026-27 is forecast at £1,449bn, or 45.6% of GDP, up from £1,366bn in 2025-26."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chart C.2 and Table B.4"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Where £1,392bn will come from in 2027-28",
+          "blocks": [
+            {
+              "type": "bar",
+              "label": "Income tax",
+              "value": 392.2,
+              "max": 392.2,
+              "valueText": "£392.2bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "VAT",
+              "value": 229.0,
+              "max": 392.2,
+              "valueText": "£229.0bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "National Insurance",
+              "value": 220.8,
+              "max": 392.2,
+              "valueText": "£220.8bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Corporation tax",
+              "value": 114.5,
+              "max": 392.2,
+              "valueText": "£114.5bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Council tax",
+              "value": 56.8,
+              "max": 392.2,
+              "valueText": "£56.8bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Fuel, alcohol and tobacco duties",
+              "value": 46.1,
+              "max": 392.2,
+              "valueText": "£46.1bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Business rates",
+              "value": 36.9,
+              "max": 392.2,
+              "valueText": "£36.9bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Other taxes",
+              "value": 152.3,
+              "max": 392.2,
+              "valueText": "£152.3bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Other non-tax receipts",
+              "value": 143.3,
+              "max": 392.2,
+              "valueText": "£143.3bn",
+              "color": "green"
+            },
+            {
+              "type": "note",
+              "text": "Spending is £112bn more than receipts that year. That gap is the borrowing figure above."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chart C.1 (OBR)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Your Money",
+      "icon": "payments",
+      "header": {
+        "title": "Your Money",
+        "subtitle": "What changes for households, and when"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "Energy and travel",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Household Energy Payment",
+              "value": "£100",
+              "detail": "From January 2027 for council tax bands A–D in England. Up to 20 million homes, £2.6bn in total"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "VAT on household electricity",
+              "value": "0%",
+              "detail": "Down from 5%, from 1 October 2026 to 1 July 2027. About £50 off the yearly price cap from April 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Fuel duty",
+              "value": "5p cut kept",
+              "detail": "Cut and freeze both extended to 1 July 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Bus fares",
+              "value": "£2 cap",
+              "detail": "Single fares in England outside London, for a year from 1 January 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Gas standing charges",
+              "value": "To be abolished",
+              "detail": "They average £108 a year now. Ofgem is aiming to scrap them by the end of 2027, with the costs moved onto unit rates"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Executive summary, Chapter 3 and Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Work and pay",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "National Living Wage (21+)",
+              "value": "£13.21/hour",
+              "detail": "Up 3.9% from 1 April 2027, about £910 a year more for a full-time worker"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Minimum wage, 18–20",
+              "value": "£11.27/hour",
+              "detail": "Also up 3.9%"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Trading Allowance",
+              "value": "£1,000 → £3,000",
+              "detail": "From 6 April 2027. Side income up to this amount is tax-free with no need to report it"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Tax-free mileage rate",
+              "value": "55p a mile",
+              "detail": "For the first 10,000 business miles in your own car or van"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Income tax thresholds",
+              "value": "Still frozen",
+              "detail": "The £12,570 personal allowance and the higher-rate threshold stay frozen until April 2031, as set at Budget 2025"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chapter 3 and Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Savings, homes and pensions",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Cash ISA limit",
+              "value": "Stays £20,000",
+              "detail": "A planned cut for under-65s from April 2027 has been dropped"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Tax on savings interest",
+              "value": "24% / 44% / 49%",
+              "detail": "Basic / higher / additional rate from 6 April 2027, up from 20% / 40% / 45% today (UK-wide)"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Tax on rental profits",
+              "value": "24% / 44% / 49%",
+              "detail": "From 6 April 2027 in England, Wales and Northern Ireland"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "First Time Buyer ISA",
+              "value": "From April 2029",
+              "detail": "Replaces the Lifetime ISA for new savers. Up to £4,000 a year plus a 25% bonus, homes up to £450,000, no upper age limit"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Your First Home equity loans",
+              "value": "~70,000 buyers",
+              "detail": "A new government equity loan scheme from April 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Pension Tax Allowance",
+              "value": "April 2027–April 2030",
+              "detail": "No income tax for pensioners whose total income is no more than the full new State Pension"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Plan 2 and Plan 3 student loans",
+              "value": "Interest capped at 6%",
+              "detail": "From 1 September 2026 to 31 August 2027"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chapters 3 and 6, Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "widget",
+          "widget": "savings_rent_tax_estimator",
+          "params": {
+            "title": "Savings & rent tax estimator",
+            "intro": "Enter the savings interest and rental profit you pay tax on: after your Personal Savings Allowance, any starting rate for savings and allowable expenses.",
+            "nowLabel": "Tax now (2026/27)",
+            "bands": [
+              {
+                "band": "Basic",
+                "rates": [
+                  0.2,
+                  0.22,
+                  0.24
+                ]
+              },
+              {
+                "band": "Higher",
+                "rates": [
+                  0.4,
+                  0.42,
+                  0.44
+                ]
+              },
+              {
+                "band": "Additional",
+                "rates": [
+                  0.45,
+                  0.47,
+                  0.49
+                ]
+              }
+            ],
+            "steps": [
+              "From April 2027: Budget 2025 rise",
+              "From April 2027: Budget 2026 rise"
+            ],
+            "totalLabel": "Total tax from 2027/28",
+            "note": "A rough guide. It assumes all of this income falls in the band you choose, and today's allowances stay the same. Rental profit rates apply in England, Wales and Northern Ireland. Income held in an ISA or pension isn't affected."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "icon": "store",
+      "header": {
+        "title": "Business",
+        "subtitle": "Who gets help, and who pays more"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "Paying more",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Bank surcharge",
+              "value": "3% → 6%",
+              "detail": "From 1 January 2027 to 31 March 2028. Raises about £1.5bn in total, to help pay for the energy payment"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Writing-down allowance (main rate)",
+              "value": "14% → 12%",
+              "detail": "From April 2027. Raises about £1.1bn a year"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Business Asset Disposal Relief",
+              "value": "Lifetime limit halved",
+              "detail": "To £500,000 from 6 April 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Online marketplaces",
+              "value": "Collect VAT for sellers",
+              "detail": "Extended to UK sellers with £90,000+ of sales on a platform, from October 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Large minicab operators",
+              "value": "VAT on full fares",
+              "detail": "Operators with fares over £50m a year, from January 2028"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Machine Games Duty",
+              "value": "20% → 25%",
+              "detail": "For higher-stake gaming machines, from April 2027"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chapter 6 and Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Getting help",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "First-year allowance (main rate)",
+              "value": "40% → 50%",
+              "detail": "For new investment from 1 January 2027, alongside full expensing"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Founders' Relief",
+              "value": "10% CGT",
+              "detail": "On up to £10m of lifetime gains for founders of qualifying high-growth companies, from April 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Industrial electricity discount",
+              "value": "20–25%",
+              "detail": "For about 10,000 energy-intensive manufacturers from April 2027, backdated to cover 2026-27"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Business rates: pubs, music venues, social clubs",
+              "value": "35% relief",
+              "detail": "Up from 15%, from April 2027"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Small Business Rate Relief (retail, hospitality, leisure)",
+              "value": "Up to £18,000",
+              "detail": "100% relief threshold raised from £12,000, so a further 70,000 firms pay nothing"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "All other retail, hospitality and leisure",
+              "value": "Real-terms freeze",
+              "detail": "Bills frozen in real terms for two years"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Executive summary, Chapter 4 and Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Corporation tax",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Main rate",
+              "value": "25%",
+              "detail": "Unchanged and capped for this Parliament under the 2024 Corporate Tax Roadmap"
+            },
+            {
+              "type": "note",
+              "text": "Ministers say the capital allowance changes push firms to invest sooner: the bigger first-year allowance means more relief up front, and the slower writing-down rate means less later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Big Reforms",
+      "icon": "construction",
+      "header": {
+        "title": "Big Reforms",
+        "subtitle": "The long-term changes behind the short-term help"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "The State Pension after 2029",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Until April 2029",
+              "value": "Triple lock",
+              "detail": "Highest of inflation, earnings growth or 2.5%"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "From April 2030",
+              "value": "Adjusted triple lock",
+              "detail": "Highest of 2.5%, inflation, or the rise needed to keep the pension's value relative to earnings at the April 2029 level"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Estimated saving",
+              "value": "£15bn a year",
+              "detail": "By the late 2030s, rising to £50bn a year by the late 2040s"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Over this Parliament",
+              "value": "+£2,000+",
+              "detail": "Rise in the yearly value of the full new State Pension under the triple lock"
+            },
+            {
+              "type": "note",
+              "text": "The savings are meant to help pay for a National Care Service in England, with personal care free when people need it. Baroness Casey's commission on adult social care will now report in 2027. The change needs the next government to carry it through."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, paragraphs 1.28–1.29, 5.23–5.25 and Box 5A; DWP State Pension Uprating (October 2026)"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Powers moving out of Whitehall",
+          "blocks": [
+            {
+              "type": "bullet",
+              "title": "Mayors get a share of taxes",
+              "text": "Mayors will get a share of income tax and business rates, and councils will keep more of their business rates. Mayoral authorities start getting a share of business rates growth from April 2027."
+            },
+            {
+              "type": "bullet",
+              "title": "Good Growth Funds",
+              "text": "Seed funding plus £1.5bn of finance for mayors and local leaders in England. Scotland, Wales and Northern Ireland get equivalent funding."
+            },
+            {
+              "type": "bullet",
+              "title": "A smaller Civil Service",
+              "text": "Administration budgets will be cut by 20% by 2029-30, deeper than the 16% planned at the 2025 Spending Review. That saves about £600m a year."
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Energy",
+          "blocks": [
+            {
+              "type": "bullet",
+              "title": "No new policy costs on bills",
+              "text": "Until a Cost Control Framework is set at the 2027 Spending Review."
+            },
+            {
+              "type": "bullet",
+              "title": "Breaking gas's grip on prices",
+              "text": "A consultation on wholesale Contracts for Difference, which fix the price paid to some renewable generators."
+            },
+            {
+              "type": "bullet",
+              "title": "Gas Shipper Obligation scrapped",
+              "text": "Hydrogen projects will be paid for by the government rather than through a new levy on gas bills."
+            },
+            {
+              "type": "bullet",
+              "title": "Energy Wealth Fund",
+              "text": "£2bn through the National Wealth Fund."
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Defence and housing",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "Defence Investment Plan",
+              "value": "Fully funded",
+              "detail": "By moving capital budgets from elsewhere in government"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Ukraine air defence",
+              "value": "£500m",
+              "detail": "Emergency support for this winter"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Social and affordable homes",
+              "value": "~10,000 more",
+              "detail": "£1.75bn from 2027-28 to 2030-31"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "Rough sleeping",
+              "value": "~£1.5bn",
+              "detail": "Spread across the Parliament, about £0.5bn of it paid for by moving existing MHCLG budgets"
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Chapter 5 and Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "What comes next",
+          "blocks": [
+            {
+              "type": "bullet",
+              "title": "10 Year Plan",
+              "text": "Will set out the government's long-term priorities."
+            },
+            {
+              "type": "bullet",
+              "title": "Spending Review 2027",
+              "text": "Sets department budgets and creates a new ring-fenced 'preventative' spending category. The Budget warns that not every department will get a real-terms rise."
+            },
+            {
+              "type": "bullet",
+              "title": "Pensions Commission",
+              "text": "Its final report on private pensions is due in February 2027."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Who Pays",
+      "icon": "balance",
+      "header": {
+        "title": "Who Pays",
+        "subtitle": "What the Budget's policies cost and raise, year by year"
+      },
+      "blocks": [
+        {
+          "type": "card",
+          "title": "The package overall (£bn)",
+          "blocks": [
+            {
+              "type": "row",
+              "label": "2026-27",
+              "value": "−£7.6bn",
+              "detail": "Net cost: energy help comes first"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "2027-28",
+              "value": "−£2.5bn"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "2028-29",
+              "value": "+£0.7bn"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "2029-30",
+              "value": "+£5.2bn",
+              "detail": "The year the fiscal rules are tested"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "2030-31",
+              "value": "+£6.1bn"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "row",
+              "label": "2031-32",
+              "value": "+£7.4bn",
+              "detail": "Net raise"
+            },
+            {
+              "type": "note",
+              "text": "Money is given out now and taken back later. Tax measures alone raise a net £5.6bn in 2029-30 and £7.0bn in 2031-32, while spending decisions cost £6.0bn this year. The OBR's scoring differs a little from the Treasury's."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Table 6.1 (− = costs the Exchequer, + = raises money)"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Biggest costs, 2026-27 (£bn)",
+          "blocks": [
+            {
+              "type": "bar",
+              "label": "Household Energy Payment",
+              "value": 2.625,
+              "max": 2.625,
+              "valueText": "£2.6bn",
+              "color": "orange"
+            },
+            {
+              "type": "bar",
+              "label": "0% VAT on household electricity",
+              "value": 0.755,
+              "max": 2.625,
+              "valueText": "£0.8bn",
+              "color": "orange"
+            },
+            {
+              "type": "bar",
+              "label": "Fuel duty cut and freeze",
+              "value": 0.575,
+              "max": 2.625,
+              "valueText": "£0.6bn",
+              "color": "orange"
+            },
+            {
+              "type": "bar",
+              "label": "Ukraine air defence",
+              "value": 0.5,
+              "max": 2.625,
+              "valueText": "£0.5bn",
+              "color": "orange"
+            },
+            {
+              "type": "bar",
+              "label": "Infected Blood Compensation",
+              "value": 0.36,
+              "max": 2.625,
+              "valueText": "£0.4bn",
+              "color": "orange"
+            },
+            {
+              "type": "note",
+              "text": "The industrial electricity discount starts in 2027-28 and costs £1.2bn that year, including the backdated payment."
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Biggest money-raisers, 2029-30 (£bn)",
+          "blocks": [
+            {
+              "type": "bar",
+              "label": "Closing the tax gap (HMRC)",
+              "value": 1.98,
+              "max": 1.98,
+              "valueText": "£2.0bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Lower writing-down allowance",
+              "value": 1.075,
+              "max": 1.98,
+              "valueText": "£1.1bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Higher tax on savings and rental income",
+              "value": 0.955,
+              "max": 1.98,
+              "valueText": "£1.0bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Distributions framework",
+              "value": 0.8,
+              "max": 1.98,
+              "valueText": "£0.8bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Taxing foreign sovereign investors",
+              "value": 0.69,
+              "max": 1.98,
+              "valueText": "£0.7bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Civil Service admin cuts",
+              "value": 0.595,
+              "max": 1.98,
+              "valueText": "£0.6bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "Foreign branch losses rule",
+              "value": 0.45,
+              "max": 1.98,
+              "valueText": "£0.5bn",
+              "color": "green"
+            },
+            {
+              "type": "bar",
+              "label": "VAT on large minicab operators",
+              "value": 0.395,
+              "max": 1.98,
+              "valueText": "£0.4bn",
+              "color": "green"
+            },
+            {
+              "type": "note",
+              "text": "The bank surcharge isn't on this list because it's temporary. It raises about £1.5bn in total between 2026-27 and 2028-29."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, Table 6.1"
+            }
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Who is affected",
+          "blocks": [
+            {
+              "type": "bullet",
+              "title": "Savers and landlords",
+              "text": "84% of income taxpayers won't be affected by the savings and property income rises. The Treasury expects about half the money to come from the richest 10% of households."
+            },
+            {
+              "type": "bullet",
+              "title": "Workers",
+              "text": "Rates of tax on earnings don't change, but frozen thresholds mean more people pay tax, or pay a higher rate, as wages rise."
+            },
+            {
+              "type": "bullet",
+              "title": "Pensioners",
+              "text": "Protected from income tax on the State Pension until April 2030. From 2030 the pension rises more slowly than under the full triple lock."
+            },
+            {
+              "type": "bullet",
+              "title": "Business owners",
+              "text": "Founders of fast-growing firms get Founders' Relief, while the halved BADR limit means a bigger tax bill for many other business owners selling up."
+            },
+            {
+              "type": "source",
+              "text": "Source: Budget 2026, paragraph 2.50 and Chapter 6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "HM Treasury",
+      "detail": "Budget 2026: Breathing space for today, fresh hope for the future (HC 726, 28 October 2026). Policy measures and costings come from Table 6.1. Spending totals come from Table B.4, and the 2027-28 breakdowns of receipts and spending from Charts C.1 and C.2."
+    },
+    {
+      "title": "OBR",
+      "detail": "Economic and fiscal outlook, October 2026, as reproduced in Budget Tables 1.1–1.3: GDP, inflation, unemployment, borrowing, debt and fiscal rule headroom. Also the OBR's assessment of the 56% chance of meeting the stability rule, and its forecast for the tax burden."
+    },
+    {
+      "title": "ONS",
+      "detail": "Public sector finances, September 2026: 2025-26 borrowing outturn of £134.3bn."
+    },
+    {
+      "title": "DWP",
+      "detail": "State Pension Uprating (October 2026): savings from the adjusted triple lock."
+    },
+    {
+      "title": "Method",
+      "detail": "Policy figures are the Treasury's own costings and can differ slightly from the OBR's. The estimator multiplies the taxable income you enter by the flat rate for your band, so it ignores allowances, band boundaries and Scottish property rates."
+    }
+  ]
+}

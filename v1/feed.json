@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "version": 1,
+  "posts": [
+    {
+      "id": "2026-10-31-budget-spotlight",
+      "publishedAt": "2026-10-31T09:00:00Z",
+      "tag": "Spotlight",
+      "title": "Budget 2026: the full Spotlight is out",
+      "summary": "Energy help now, higher tax on savings, rent and banks to pay for it, and a new State Pension rule from 2030.",
+      "icon": "business_center",
+      "color": "red",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Our October Spotlight covers John Healey's first Budget: the borrowing forecast, what changes for households and businesses, the long-term reforms, and who pays."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "£133bn",
+              "label": "Forecast borrowing, 2026-27"
+            },
+            {
+              "value": "£15bn",
+              "label": "Headroom against the main fiscal rule"
+            },
+            {
+              "value": "£100",
+              "label": "Energy payment for bands A–D homes in England"
+            },
+            {
+              "value": "24%",
+              "label": "Basic-rate tax on savings income from April 2027"
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "title": "Read the Budget 2026 Spotlight",
+          "action": {
+            "type": "spotlight",
+            "id": "budget-2026"
+          }
+        },
+        {
+          "type": "source",
+          "text": "Source: HM Treasury, Budget 2026 (HC 726), 28 October 2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-factcheck-asylum-hotels",
+      "publishedAt": "2026-10-31T08:30:00Z",
+      "tag": "Fact check",
+      "title": "“Asylum seekers stay in hotels for good”",
+      "summary": "A claim that's widely shared online. The figures say hotel use has halved in a year.",
+      "icon": "gavel",
+      "color": "orange",
+      "blocks": [
+        {
+          "type": "factcheck",
+          "claim": "Asylum seekers are put up in hotels and stay there for good.",
+          "speaker": "Widely shared claim",
+          "context": "Social media",
+          "verdict": "false",
+          "summary": "Hotel use is falling fast. 16,000 people were in asylum hotels in June 2026, half the number a year earlier, as faster decisions cut the backlog by 56%."
+        },
+        {
+          "type": "line_chart",
+          "title": "Home Office asylum spending (£bn)",
+          "labels": [
+            "22/23",
+            "23/24",
+            "24/25",
+            "25/26"
+          ],
+          "series": [
+            {
+              "name": "Asylum spending",
+              "values": [
+                3.95,
+                5.38,
+                4.76,
+                4.36
+              ],
+              "color": "blue"
+            }
+          ],
+          "prefix": "£",
+          "suffix": "bn",
+          "decimals": 2
+        },
+        {
+          "type": "text",
+          "text": "Hotels are the most expensive way to house people, at around £145 per person per night. Hotel costs fell from £8.3m a day in 2023/24 to £5.8m a day in 2024/25. The government has committed to ending hotel use within this Parliament."
+        },
+        {
+          "type": "link",
+          "title": "See the Immigration tracker",
+          "action": {
+            "type": "tracker",
+            "id": "immigration"
+          }
+        },
+        {
+          "type": "source",
+          "text": "Source: Home Office immigration system statistics (June 2026); Home Office Annual Report and Accounts"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-welcome",
+      "publishedAt": "2026-10-31T08:00:00Z",
+      "tag": "News",
+      "title": "Open Treasury now updates live",
+      "summary": "New analysis, figures and Spotlights will appear here as they're published, without waiting for an app update.",
+      "icon": "campaign",
+      "color": "blue",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "This feed is where we'll post short explainers on new data and announcements: Bank of England decisions, inflation figures, government borrowing, and what the Budget means in practice.\n\nThroughout November we'll be posting real-life context on Budget 2026 for workers, savers, landlords, pensioners and families."
+        },
+        {
+          "type": "link",
+          "title": "See today's economy",
+          "action": {
+            "type": "route",
+            "route": "economy_pulse"
+          }
+        }
+      ]
+    }
+  ]
+}
