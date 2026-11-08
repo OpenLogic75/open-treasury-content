@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-31T09:00:00Z",
+  "updatedAt": "2026-11-08T09:00:00Z",
   "feed": {
     "path": "feed.json",
     "version": 1
   },
   "figures": {
     "path": "figures.json",
-    "version": 1
+    "version": 2
   },
   "spotlights": [
     {

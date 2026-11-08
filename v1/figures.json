@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "bankRate": {
-    "rate": 3.75,
-    "since": "Unchanged since 18 December 2025",
-    "nextDecision": "Next decision: 5 November 2026"
+    "rate": 4.0,
+    "since": "Raised from 3.75% on 5 November 2026",
+    "nextDecision": "Next decision: 17 December 2026"
   }
 }
