@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-09T09:00:00Z",
+  "updatedAt": "2026-11-09T16:00:00Z",
   "feed": {
     "path": "feed.json",
     "version": 1
@@ -32,7 +32,7 @@
       "color": "red",
       "access": "free",
       "path": "trackers/public-finances.json",
-      "version": 2,
+      "version": 3,
       "minSchema": 1,
       "order": 10
     },
