@@ -4,7 +4,7 @@
   "version": 2,
   "updatedAt": "2026-11-09",
   "title": "Public Finances",
-  "summary": "How much the government borrows, how much it owes, and what the interest costs.",
+  "summary": "How much the government borrows and how much it owes.",
   "theme": {
     "primary": "#FF3B30"
   },
@@ -36,7 +36,6 @@
           "source": "Budget 2026, Tables 1.2 and 1.3 (OBR)",
           "series": {
             "labels": [
-              "25-26",
               "26-27",
               "27-28",
               "28-29",
@@ -45,7 +44,6 @@
               "31-32"
             ],
             "values": [
-              134.3,
               133.2,
               112.0,
               99.5,
