@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-09T16:00:00Z",
+  "updatedAt": "2026-11-10T12:00:00Z",
   "feed": {
     "path": "feed.json",
     "version": 1
@@ -18,7 +18,7 @@
       "color": "red",
       "access": "plus",
       "path": "spotlights/budget-2026.json",
-      "version": 1,
+      "version": 2,
       "minSchema": 1,
       "order": 10
     }

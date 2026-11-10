@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "budget-2026",
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-10-31",
   "theme": {
     "primary": "#C62828",
@@ -133,50 +133,50 @@
             {
               "type": "bar",
               "label": "2025-26 (outturn)",
-              "value": 134.3,
-              "max": 134.3,
-              "valueText": "£134.3bn"
+              "value": 134.2,
+              "max": 134.2,
+              "valueText": "£134.2bn"
             },
             {
               "type": "bar",
               "label": "2026-27",
               "value": 133.2,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£133.2bn · 4.2% of GDP"
             },
             {
               "type": "bar",
               "label": "2027-28",
               "value": 112.0,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£112.0bn · 3.4%"
             },
             {
               "type": "bar",
               "label": "2028-29",
               "value": 99.5,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£99.5bn · 2.9%"
             },
             {
               "type": "bar",
               "label": "2029-30",
               "value": 73.8,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£73.8bn · 2.1%"
             },
             {
               "type": "bar",
               "label": "2030-31",
               "value": 66.9,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£66.9bn · 1.8%"
             },
             {
               "type": "bar",
               "label": "2031-32",
               "value": 68.3,
-              "max": 134.3,
+              "max": 134.2,
               "valueText": "£68.3bn · 1.8%"
             },
             {
@@ -1233,7 +1233,7 @@
     },
     {
       "title": "ONS",
-      "detail": "Public sector finances, September 2026: 2025-26 borrowing outturn of £134.3bn."
+      "detail": "Public sector finances, September 2026: 2025-26 borrowing outturn of £134.2bn (release of 21 October 2026)."
     },
     {
       "title": "DWP",
